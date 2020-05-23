@@ -8,31 +8,30 @@
 </head>
 <body>
     <h1>Simple Calculator</h1>
-    <div id="screen">
-
-    </div>
-    <div id="container">
-        <div id="keyborad">
-        <button class="btn" id="1">1</button>
-        <button class="btn" id="2">2</button>
-        <button class="btn" id="3">3</button>
-        <button class="btn" id="4">4</button>
-        <button class="btn" id="5">5</button>
-        <button class="btn" id="6">6</button>
-        <button class="btn" id="7">7</button>
-        <button class="btn" id="8">8</button>
-        <button class="btn" id="9">9</button>
-        <button class="btn" id="0">0</button>
-    </div>
-    <div id="functionKeys">
-        <button class="btn" id="add">+</button>
-        <button class="btn" id="subtract">-</button>
-        <button class="btn" id="multiply">*</button>
-        <button class="btn" id="divide">/</button>
-        <button class="btn" id="equals">=</button>
-        <button class="btn" id="clear">clear</button>
-     </div>
-    </div>
+    
+    <div id = 'container'>
+        <div id = 'display'></div>
+        <div id = 'statement'></div>
+        <button type='button' id = 'plus' class = 'operator'>+</button>
+        <button type='button' id = 'minus' class = 'operator'>-</button>
+        <button type='button' id = 'times' class = 'operator'>&times</button>
+        <button type='button' id = 'divide' class = 'operator'>&divide</button>
+        <button type='button' id = 'clear' class = 'operator' style='background-color: rgba(61, 125, 245, 0.753);'>ac</button>
+        <div id = 'numbers'>
+            <button type='button' id = 'num7'>7</button>
+            <button type='button' id = 'num8'>8</button>
+            <button type='button' id = 'num9'>9</button>
+            <button type='button' id = 'num4'>4</button>
+            <button type='button' id = 'num5'>5</button>
+            <button type='button' id = 'num6'>6</button>
+            <button type='button' id = 'num1'>1</button>
+            <button type='button' id = 'num2'>2</button>
+            <button type='button' id = 'num3'>3</button>
+            <button type='button' id = 'num0' class = 'zero'>0</button>
+            <button type='button' id = 'numdot'>.</button>
+        </div>
+        <button type='button' id = 'equals' class= "operator" style='background-color: orange;'>=</button>
+    </div>   
     
     <script src="main.js"></script>
 </body>
